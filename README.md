@@ -1,13 +1,20 @@
-RecipeApp
-RecipeApp is a simple iOS application that allows users to browse and view dessert recipes. 
-The app fetches data from TheMealDB API and displays a list of desserts. Users can select a dessert to view detailed instructions and ingredients.
-Features
-Browse a list of dessert recipes.
-View detailed instructions and ingredients for each recipe.
-Asynchronous network requests using Swift Concurrency (async/await).
-Built with SwiftUI for a modern and responsive user interface.
-Installation
-Clone the repository to your local machine.
+# RecipeApp
+
+**RecipeApp** is a simple iOS application that allows users to browse and view dessert recipes. The app fetches data from [TheMealDB API](https://themealdb.com/api.php) and displays a list of desserts. Users can select a dessert to view detailed instructions and ingredients.
+
+## Features
+
+- Browse a list of dessert recipes.
+- View detailed instructions and ingredients for each recipe.
+- Asynchronous network requests using Swift Concurrency (`async/await`).
+- Built with SwiftUI for a modern and responsive user interface.
+
+## Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/sp0721/recipeapp.git
+
 Open the project in Xcode.
 Run the app on a simulator or a connected device.
 Usage
